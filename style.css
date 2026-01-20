@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #4a148c;
+  color: white;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  width: 80%;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: #4a148c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6a1b9a;
+}
+
+.lesson {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.lesson p {
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  background: #ddd;
+}
